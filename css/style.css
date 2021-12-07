@@ -1,0 +1,197 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+
+#codigoModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#imgModal{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#botaoFechar{
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    color: gray;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.foot{
+	bottom: 0;
+	width: 100%;
+	padding-top: 5px;
+}
+
+footer{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: #1C1C1C;
+	color: gray;
+}
+
+.card-group{
+	color: white;
+}
+
+.card{
+	background-color: #000000 ;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+
+.Titulo{
+	text-align: center;
+	background-color: #000000 ;
+	color: white;
+	padding: 50px;
+}
+
+.Trailer{
+	text-align: center;
+	background-color: #1C1C1C ;
+	color: white;
+	padding: 50px;
+}
+
+.Video{
+	padding-bottom: 100px;
+	background-color: #1C1C1C;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+.Dentro{
+	text-align: center;
+	background-color: #000000 ;
+	color: white;
+	padding: 50px;	
+}
+
+.Parte1{
+	background-color: #000000;
+}
+
+#vd1{
+	color: white;
+	padding-bottom: 100px;
+}
+
+#vd2{
+	color: white;
+	padding-bottom: 100px;
+}
+
+.Parte2{
+	color: white;
+	background-color: #000000 ;
+}
+
+#vdd1{
+	padding-bottom: 100px;
+}
+
+#vdd2{
+	padding-bottom: 100px;
+}
+
+.Podcast{
+	background-color: white;
+	padding-top: 100px;
+}
+
+#Pod{
+	padding-left: 40px;
+	align-content: center;
+	padding-bottom: 100px;
+}
+
+#Podt{
+	padding-right: 50px;
+	align-content: center;
+	padding-bottom: 50px;
+}
+
+.Imagens{
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+.ConjImag{
+	padding-left: 150px;
+	padding-bottom: 100px;
+}
+
+.Imgs{
+	width: 350px;
+	height: 240px;
+	margin: 2px;
+	border-radius: 7px;
+}
+
+#imgGalery{
+	cursor: pointer;
+}
+
+.Botao{
+	background-color: #000000 ;
+	text-align: right;
+	padding-right: 127px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.But{
+	text-align: center;
+}
+
+.Comentários{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	padding-bottom: 5px;
+}
+
+.Usuarios{	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+#Crd2{
+	color: #4F4F4F;
+}
+
+.parallax{
+	background-image: url(../images/fcont5.jpg);
+	min-height: 350px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
